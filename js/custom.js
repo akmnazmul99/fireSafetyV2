@@ -1,3 +1,7 @@
-$(document).ready(function () {
-    $("video").prop('muted', true);
-});
+wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset: 100,
+        }
+);
+wow.init();

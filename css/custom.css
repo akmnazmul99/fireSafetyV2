@@ -13,24 +13,13 @@ Author: A.K.M. Nazmul Islam*/
 html, body {
     font-family: 'robotolight';
     height: 100%;
-    color: #fff;
+    color: #212121;
     font-size: 15px;
     line-height: 150%;
     margin: 0;
     padding: 0;
-    background-attachment: fixed;
-  background-size: cover;
 }
-#video-background {
-  position: fixed;
-  right: 0; 
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  width: auto; 
-  height: auto;
-  z-index: -100;
-}
+
 .wrapper {
     min-height: 100%;
     margin-bottom: -60px;
@@ -211,7 +200,7 @@ a:hover{
     line-height: 150%;
 }
 .welcome-note,.welcome-para{
-    color: #fff;
+    color: #212121;
 }
 .mission-text, .vision-text{
     font-size: 16px;
@@ -323,4 +312,52 @@ a:hover{
     .navbar-collapse-custom{
         float: right!important;
     }
+}
+.fade-timer-1st{
+    visibility: visible; 
+    -webkit-animation-delay: 0.2s; 
+    -moz-animation-delay: 0.2s; 
+    animation-delay: 0.2s;
+}
+.fade-timer-2nd{
+    visibility: visible; 
+    -webkit-animation-delay: 0.4s; 
+    -moz-animation-delay: 0.4s; 
+    animation-delay: 0.4s;
+}
+.fade-timer-3rd{
+    visibility: visible; 
+    -webkit-animation-delay: 0.6s; 
+    -moz-animation-delay: 0.6s; 
+    animation-delay: 0.6s;
+}
+.fade-timer-4th{
+    visibility: visible; 
+    -webkit-animation-delay: 0.8s; 
+    -moz-animation-delay: 0.8s; 
+    animation-delay: 0.8s;
+}
+.fade-timer-5th{
+    visibility: visible; 
+    -webkit-animation-delay: 1.0s; 
+    -moz-animation-delay: 1.0s;
+    animation-delay: 1.0s;
+}
+.fade-timer-6th{
+    visibility: visible; 
+    -webkit-animation-delay: 1.2s; 
+    -moz-animation-delay: 1.2s;
+    animation-delay: 1.2s;
+}
+.fade-timer-7th{
+    visibility: visible; 
+    -webkit-animation-delay: 1.4s; 
+    -moz-animation-delay: 1.4s; 
+    animation-delay: 1.4s;
+}
+.fade-timer-8th{
+    visibility: visible; 
+     -webkit-animation-delay: 1.6s; 
+    -moz-animation-delay: 1.6s;
+    animation-delay: 1.6s;
 }
